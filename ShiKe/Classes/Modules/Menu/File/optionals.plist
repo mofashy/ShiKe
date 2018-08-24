@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>规格</string>
+		<key>optional</key>
+		<array>
+			<string>中</string>
+			<string>大</string>
+			<string>特大</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>温度</string>
+		<key>optional</key>
+		<array>
+			<string>少冰</string>
+			<string>正常</string>
+			<string>热</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>糖分</string>
+		<key>optional</key>
+		<array>
+			<string>少糖</string>
+			<string>半糖</string>
+			<string>正常</string>
+		</array>
+	</dict>
+</array>
+</plist>

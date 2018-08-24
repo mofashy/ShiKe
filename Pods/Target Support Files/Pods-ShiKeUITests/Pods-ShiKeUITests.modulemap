@@ -1,0 +1,6 @@
+framework module Pods_ShiKeUITests {
+  umbrella header "Pods-ShiKeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

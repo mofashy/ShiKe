@@ -1,0 +1,122 @@
+[
+	{
+		"coverUrl": "",
+		"name": "摩卡咖啡",
+		"price": 32,
+		"type": 1
+	},
+	{
+		"coverUrl": "",
+		"name": "欧蕾咖啡",
+		"price": 36,
+		"type": 1
+	},
+	{
+		"coverUrl": "",
+		"name": "拿铁咖啡",
+		"price": 34,
+		"type": 1
+	},
+	{
+		"coverUrl": "",
+		"name": "卡布奇诺",
+		"price": 36,
+		"type": 1
+	},
+	{
+		"coverUrl": "",
+		"name": "香草拿铁",
+		"price": 36,
+		"type": 1
+	},
+	{
+		"coverUrl": "",
+		"name": "焦糖玛奇朵",
+		"price": 36,
+		"type": 1
+	},
+	{
+		"coverUrl": "",
+		"name": "美式咖啡",
+		"price": 36,
+		"type": 1
+	},
+	{
+		"coverUrl": "",
+		"name": "冰摩卡",
+		"price": 36,
+		"type": 1
+	},
+	{
+		"coverUrl": "",
+		"name": "蔓越果泥冰沙",
+		"price": 36,
+		"type": 2
+	},
+	{
+		"coverUrl": "",
+		"name": "蓝莓果泥冰沙",
+		"price": 36,
+		"type": 2
+	},
+	{
+		"coverUrl": "",
+		"name": "芒橙果泥冰沙",
+		"price": 36,
+		"type": 2
+	},
+	{
+		"coverUrl": "",
+		"name": "红豆抹绿冰沙",
+		"price": 36,
+		"type": 2
+	},
+	{
+		"coverUrl": "",
+		"name": "蔓越草莓汁",
+		"price": 36,
+		"type": 3
+	},
+	{
+		"coverUrl": "",
+		"name": "蓝莓欧蕾汁",
+		"price": 36,
+		"type": 3
+	},
+	{
+		"coverUrl": "",
+		"name": "桑葚欧蕾汁",
+		"price": 36,
+		"type": 3
+	},
+	{
+		"coverUrl": "",
+		"name": "芒果欧蕾汁",
+		"price": 36,
+		"type": 3
+	},
+	{
+		"coverUrl": "",
+		"name": "香橙欧蕾汁",
+		"price": 36,
+		"type": 3
+	},
+	{
+		"coverUrl": "",
+		"name": "柠檬飘雪",
+		"price": 36,
+		"type": 4
+	},
+	{
+		"coverUrl": "",
+		"name": "香橙飘雪",
+		"price": 36,
+		"type": 4
+	},
+	{
+		"coverUrl": "",
+		"name": "芒果飘雪",
+		"price": 36,
+		"type": 4
+	}
+]

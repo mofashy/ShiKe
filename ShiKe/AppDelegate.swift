@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        configRootVC()
+        configTheme()
+        TableManager.shared.createTables()
+        
         return true
     }
 
@@ -40,7 +45,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    func configRootVC() {
+        let allVCWithNav = BaseNavigationController(rootViewController: AllViewController())
+        allVCWithNav.tabBarItem = UITabBarItem(title: shike_localized("shike_tab_title_all"), image: UIImage(named: "tabbar_home"), selectedImage: nil)
+        let menuVCWithNav = BaseNavigationController(rootViewController: MenuViewController())
+        menuVCWithNav.tabBarItem = UITabBarItem(title: shike_localized("shike_tab_title_menu"), image: UIImage(named: "tabbar_drink"), selectedImage: nil)
+        let cartVCWithNav = BaseNavigationController(rootViewController: CartViewController())
+        cartVCWithNav.tabBarItem = UITabBarItem(title: shike_localized("shike_tab_title_cart"), image: UIImage(named: "tabbar_cart"), selectedImage: nil)
+        let meVCWithNav = BaseNavigationController(rootViewController: MeViewController())
+        meVCWithNav.tabBarItem = UITabBarItem(title: shike_localized("shike_tab_title_me"), image: UIImage(named: "tabbar_face"), selectedImage: nil)
+        
+        
+        let tabBarVC = BaseTabBarController()
+        tabBarVC.viewControllers = [allVCWithNav, menuVCWithNav, cartVCWithNav, meVCWithNav]
+        self.window = UIWindow()
+        self.window?.frame = UIScreen.main.bounds
+        self.window?.rootViewController = tabBarVC
+        self.window?.makeKeyAndVisible()
+    }
 
-
+    //MARK:- Appearance
+    func configTheme() {
+//        UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor: shike_color_darkGray], for: .normal)
+//        UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor: shike_color_darkPink], for: .selected)
+//        UITabBarItem.appearance().setTitleTextAttributes([.foregroundColor: shike_color_lightGray], for: .disabled)
+        UITabBar.appearance().tintColor = shike_color_darkPink
+        
+        UITabBar.appearance().backgroundImage = UIImage()
+        UITabBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().isTranslucent = false
+        
+    }
 }
 

@@ -1,0 +1,50 @@
+[
+	{
+		"title": "今日推荐",
+		"detail": "天天换新，每天都有新乐趣",
+		"productList": [
+			{
+				"coverUrl": "",
+				"name": "精选拿铁",
+				"price": 30,
+				"type": 1
+			},
+			{
+				"coverUrl": "",
+				"name": "玫瑰拿铁",
+				"price": 35,
+				"type": 1
+			},
+			{
+				"coverUrl": "",
+				"name": "抹茶拿铁",
+				"price": 36,
+				"type": 1
+			}
+		]
+	},
+	{
+		"title": "热销榜单",
+		"detail": "美食达人的最爱之选",
+		"productList": [
+			{
+				"coverUrl": "",
+				"name": "香橙拿铁",
+				"price": 32,
+				"type": 1
+			},
+			{
+				"coverUrl": "",
+				"name": "柠檬飘雪",
+				"price": 36,
+				"type": 4
+			},
+			{
+				"coverUrl": "",
+				"name": "芒果冰沙",
+				"price": 34,
+				"type": 2
+			}
+		]
+	}
+]

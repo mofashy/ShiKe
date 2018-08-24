@@ -1,0 +1,32 @@
+ [
+  {
+  "isCheck": true,
+  "coverUrl": "",
+  "name": "玫瑰拿铁",
+  "capacity": "grande",
+  "sugariness": "semi",
+  "temperature": "hot",
+  "price": 35,
+  "quantity": 1
+  },
+  {
+  "isCheck": true,
+  "coverUrl": "",
+  "name": "香橙飘雪",
+  "capacity": "grande",
+  "sugariness": "semi",
+  "temperature": "hot",
+  "price": 35,
+  "quantity": 2
+  },
+  {
+  "isCheck": false,
+  "coverUrl": "",
+  "name": "抹茶拿铁",
+  "capacity": "grande",
+  "sugariness": "less",
+  "temperature": "hot",
+  "price": 36,
+  "quantity": 1
+  }
+  ]

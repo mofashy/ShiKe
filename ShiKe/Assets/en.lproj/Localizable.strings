@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  ShiKe
+
+  Created by 沈永聪 on 2018/6/7.
+  Copyright © 2018年 沈永聪. All rights reserved.
+*/
+
+"shike_nav_title_all"="All product";
+"shike_nav_title_menu"="Menu";
+"shike_nav_title_cart"="Shopping cart";
+"shike_nav_title_me"="Me";
+"shike_nav_title_add"="Add to Shopping Cart";
+"shike_nav_title_orders"="My orders";
+"shike_nav_title_coupon"="Coupon";
+"shike_nav_title_confirm"="Confirm order";
+"shike_nav_title_paid"="Paid";
+
+"shike_nav_item_forget"="Forget password";
+
+"shike_tab_title_all"="All";
+"shike_tab_title_menu"="Menu";
+"shike_tab_title_cart"="Shopping Cart";
+"shike_tab_title_me"="Me";
+
+"shike_section_title_orderInfo"="Order info";
+
+"shike_confirm_deliveryFee"="Delivery fee";
+"shike_confirm_coupon"="Coupon";
+"shike_confirm_payType"="Pay type";
+"shike_confirm_actuallyPay"="Actually pay";
+
+"shike_money_prefix"="$";
+"shike_money_posfix"="$";
+"shike_valid_prefix"="Valid: ";
+
+"shike_btn_title_more"="See more";
+"shike_btn_title_settle"="Settle";
+"shike_btn_title_add"="Add to Shopping Cart";
+"shike_btn_title_use"="Use";
+"shike_btn_title_login"="Login";
+"shike_btn_title_register"="Register";
+"shike_btn_title_getVerify"="Get verify code";
+"shike_btn_title_pay"="Pay";
+
+"shike_tfd_phr_username"="Please input phone number";
+"shike_tfd_phr_password"="Please input password";
+"shike_tfd_phr_verify"="Please input verify code";
+
+"shike_lbl_txt_total"="Total: ";
+"shike_lbl_txt_agree_prefix"="I have read and agree";
+"shike_lbl_txt_agree"="User Agreement";
+"shike_lbl_txt_orderDetail"="Order detail";
+"shike_lbl_txt_sum"="Sum: ";
+"shike_lbl_txt_discount"="Discount: ";
+"shike_lbl_txt_actuallyPay"="Actually pay: ";
+
+"shike_menu_all"="All";
+"shike_menu_coffee"="Coffee";
+"shike_menu_smoothie"="Smoothie";
+"shike_menu_juice"="Juice";
+"shike_menu_snowflake"="snowflake";
+"shike_menu_unfinish"="Unfinish";
+"shike_menu_finished"="Finished";
+"shike_menu_canceled"="Canceled";
+"shike_menu_Unused"="Unused";
+"shike_menu_Used"="Used";
+"shike_menu_expired"="Expired";

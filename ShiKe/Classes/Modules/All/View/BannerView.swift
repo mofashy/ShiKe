@@ -20,6 +20,7 @@ class BannerView: UIView {
     
     private var collectionView: UICollectionView!
     private lazy var pageControl = UIPageControl()
+    fileprivate var animator: BannerLayoutAnimateProtocol?
     
     //MARK:- Life cycle
     override init(frame: CGRect) {
@@ -37,12 +38,17 @@ class BannerView: UIView {
     
     //MARK:- Setup
     func setupSubviews() {
+        animator = BannerLayoutAnimator()
+        
         let flowLayout = BannerLayout()
-        collectionView = UICollectionView(frame: self.bounds, collectionViewLayout: flowLayout)
+        flowLayout.animator = animator
+        flowLayout.scrollDirection = .horizontal
+        collectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: bounds.width, height: bounds.width * 9 / 16), collectionViewLayout: flowLayout)
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.backgroundColor = UIColor.white
+        collectionView.isPagingEnabled = true
         collectionView.register(BannerCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         self.addSubview(collectionView)
         
@@ -84,4 +90,23 @@ extension BannerView: UICollectionViewDataSource {
 
 extension BannerView: UICollectionViewDelegate {
     
+}
+
+//MARK:- UICollectionViewDelegateFlowLayout
+extension BannerView: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return collectionView.frame.size
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return .zero
+    }
 }

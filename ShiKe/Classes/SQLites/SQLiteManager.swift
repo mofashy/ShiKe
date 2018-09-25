@@ -5,6 +5,7 @@
 //  Created by 沈永聪 on 2018/6/14.
 //  Copyright © 2018年 沈永聪. All rights reserved.
 //
+//  Thanks: https://github.com/tianjifou/CoreSQLite3.git
 
 import UIKit
 import SQLite3

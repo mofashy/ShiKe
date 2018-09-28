@@ -4,9 +4,6 @@
 
 ### 演示
 
-<div style="float: left;">
-	<video id="video01" width="295" height="546" controls="" preload="none">
-		<source src="./video01.mp4" type="video/mp4">
-	</video>
+<div align="left">
+	<img src="./video02.gif" width="295" height="546" alt="video02">
 </div>
-
